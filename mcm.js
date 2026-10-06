@@ -1,3 +1,4 @@
+// Reto: calcular el mínimo común múltiplo de dos enteros positivos
 // Máximo común divisor (algoritmo de Euclides)
 function mcd(a, b) {
   while (b !== 0) {
@@ -18,3 +19,4 @@ console.log(mcm(6, 4)); // 12
 console.log(mcm(21, 6)); // 42
 
 module.exports = { mcm, mcd };
+
